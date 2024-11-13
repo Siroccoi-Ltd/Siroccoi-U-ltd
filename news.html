@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latest News - Siroccoi (U) Limited</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background: linear-gradient(180deg, #e3f2fd, #f3e5f5);
+            color: #333;
+        }
+
+        /* Header */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1.5rem;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #ffdd57;
+        }
+
+        h1, h2, h3 {
+            margin-top: 0;
+        }
+
+        /* News Section */
+        #news {
+            padding: 4rem 2rem;
+            max-width: 1200px;
+            margin: auto;
+            text-align: center;
+        }
+
+        #news h2 {
+            font-size: 2.5rem;
+            color: #333;
+            margin-bottom: 2rem;
+        }
+
+        .news-item {
+            background-color: #fff;
+            margin-bottom: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            transition: transform 0.3s ease;
+        }
+
+        .news-item:hover {
+            transform: translateY(-5px);
+        }
+
+        .news-image {
+            height: 200px;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .news-content {
+            padding: 2rem;
+        }
+
+        .news-date {
+            color: #888;
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+        }
+
+        .news-title {
+            font-size: 1.8rem;
+            color: #333;
+            margin-bottom: 1rem;
+        }
+
+        .news-summary {
+            font-size: 1rem;
+            color: #555;
+            margin-bottom: 1.5rem;
+        }
+
+        .read-more {
+            color: #2196f3;
+            font-weight: bold;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .read-more:hover {
+            color: #6a1b9a;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            font-size: 0.9rem;
+        }
+
+        /* Social Media Icons */
+        .social-icons {
+            margin-top: 1rem;
+        }
+
+        .social-icon {
+            color: white;
+            font-size: 1.5rem;
+            margin: 0 10px;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .social-icon:hover {
+            color: #ffdd57;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Latest News</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="projects.html">Our Projects</a>
+            <a href="staff.html">Our Staff</a>
+            <a href="news.html">Latest News</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="services.html">Services</a>
+        </nav>
+    </header>
+
+    <!-- News Section -->
+    <section id="news">
+        <h2>Stay Updated with Siroccoi (U) Limited</h2>
+
+        <!-- News Item 1 -->
+        <div class="news-item">
+            <div class="news-image" style="background-image: url('images/image6.jpg');"></div>
+            <div class="news-content">
+                <div class="news-date">October 20, 2024</div>
+                <h3 class="news-title">Siroccoi Completes Major Hydro Plant Project</h3>
+                <p class="news-summary">We recently completed a landmark hydro plant installation project in Uganda, enhancing energy efficiency and sustainability for local communities.</p>
+                <a href="news-article1.html" class="read-more">Read More</a> <!-- Link to article 1 page -->
+            </div>
+        </div>
+
+        <!-- News Item 2 -->
+        <div class="news-item">
+            <div class="news-image" style="background-image: url('images/image14.jpg');"></div>
+            <div class="news-content">
+                <div class="news-date">November 5, 2024</div>
+                <h3 class="news-title">Upcoming Training Workshop for Engineers</h3>
+                <p class="news-summary">Join our upcoming training workshop where we’ll be sharing insights and hands-on experiences with aspiring engineers and professionals.</p>
+                <a href="news-article2.html" class="read-more">Read More</a> <!-- Link to article 2 page -->
+            </div>
+        </div>
+
+        <!-- News Item 3 -->
+        <div class="news-item">
+            <div class="news-image" style="background-image: url('images/image2.jpg');"></div>
+            <div class="news-content">
+                <div class="news-date">December 1, 2024</div>
+                <h3 class="news-title">New Partnership with Green Energy Solutions</h3>
+                <p class="news-summary">We’re thrilled to announce a new partnership with Green Energy Solutions to promote renewable energy projects across East Africa.</p>
+                <a href="news-article3.html" class="read-more">Read More</a> <!-- Link to article 3 page -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Siroccoi (U) Limited | All Rights Reserved</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/yourpage" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com/yourpage" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/yourprofile" target="_blank" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://wa.me/yourwhatsappphonenumber" target="_blank" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+        </div>
+    </footer>
+</body>
+</html>

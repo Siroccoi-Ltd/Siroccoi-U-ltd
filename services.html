@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Siroccoi (U) Limited</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* Smooth Fade-In Animation */
+        .fade-in {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 1s ease-out, transform 1s ease-out;
+        }
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Custom Styles for the Contact Form */
+        .form-input, .form-textarea {
+            background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+            color: white; /* Text color */
+            transition: border-color 0.3s, box-shadow 0.3s;
+        }
+        .form-input::placeholder, .form-textarea::placeholder {
+            color: rgba(255, 255, 255, 0.7); /* Light placeholder color for visibility */
+        }
+        .form-input:focus, .form-textarea:focus {
+            border-color: #ffdd57;
+            box-shadow: 0 0 0 3px rgba(255, 221, 87, 0.3);
+        }
+
+        /* Background Image for the Contact Form Section */
+        .contact-section {
+            background: url('images/image19.jpg') center/cover no-repeat;
+            padding: 4rem 2rem;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+    <!-- Header Section -->
+    <header class="bg-gray-900 text-white p-6 text-center">
+        <h1 class="text-3xl font-bold">Siroccoi (U) Limited - Services</h1>
+        <nav class="mt-4">
+            <a href="index.html" class="mx-2 text-white hover:text-yellow-300">Home</a>
+            <a href="about.html" class="mx-2 text-white hover:text-yellow-300">About Us</a>
+            <a href="projects.html" class="mx-2 text-white hover:text-yellow-300">Our Projects</a>
+            <a href="staff.html" class="mx-2 text-white hover:text-yellow-300">Our Staff</a>
+            <a href="news.html" class="mx-2 text-white hover:text-yellow-300">Latest News</a>
+            <a href="contact.html" class="mx-2 text-white hoover:yellow-300">Contact Us</a>
+            <a href="services.html" class="mx-2 text-white hoover:yellow-300">Services</a>
+        </nav>
+    </header>
+
+ <!-- Projects Section -->
+ <section class="p-6 bg-cover bg-center bg-gradient-to-r from-blue-300 to-blue-900 via-blue-600" >
+    <h2 class="text-2xl font-semibold mb-4 text-center text-white">Our Services</h2>
+    <p class="mb-4 ml-16 text-white font-semibold">Siroccoi Uganda Ltd is a reputable company that provides engineering services such as construction, installations, refurbishment in manufacturing, Hydro, Mechanical, Chemical plants and oil reticulation, refineries just to mention but a few.</p>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 bg-gradient-to-r from-blue-300 to-blue-900 via-blue-600">
+        <div class="bg-white rounded-lg shadow-md overflow-hidden card ">
+            <img src="mavuzi.jpeg" alt="EDM-Mavuzi Power Plant" class="w-full h-48 object-cover">
+            <div class="p-4">
+                <h3 class="text-xl font-bold">EDM-Mavuzi Power Plant Pens</h3>
+                <div class="card-content">
+                    <p class="text-gray-700">Description of the project...</p>
+                </div>
+            </div>
+        </div>
+        <div class="bg-white rounded-lg shadow-md overflow-hidden card">
+            <img src="bujagali.jpeg" alt="Bujagali Hydro Power Plant" class="w-full h-48 object-cover">
+            <div class="p-4">
+                <h3 class="text-xl font-bold">Bujagali Hydro Power Plant Drainage Pipe Inside Blasting & Painting</h3>
+                <div class="card-content">
+                    <p class="text-gray-700">Description of the project...</p>
+                </div>
+            </div>
+        </div>
+        <div class="bg-white rounded-lg shadow-md overflow-hidden card">
+            <img src="kariba.jpeg" alt="ZESCO KARIBA NORTH POWER PLANT" class="w-full h-48 object-cover">
+            <div class="p-4">
+                <h3 class="text-xl font-bold">ZESCO KARIBA NORTH POWER PLANT Penstock – Governor Tank Inside / Control Gate – Head Cover – Valve Blasting & Painting</h3>
+                <div class="card-content">
+                    <p class="text-gray-700">Description of the project...</p>
+                </div>
+            </div>
+        </div>
+        <div class="bg-white rounded-lg shadow-md overflow-hidden card">
+            <img src="k.jpeg" alt="KAESER ELECTRICAL COMPRESSOR" class="w-full h-48 object-cover">
+            <div class="p-4">
+                <h3 class="text-xl font-bold">KAESER ELECTRICAL COMPRESSOR - EXTRACTOR FAN - PAINT MIXER - KIT BLASTING POT - AIRLESS PAINTING PUMP, PAINTING GUN</h3>
+                <div class="card-content">
+                    <p class="text-gray-700">Description of the project...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white text-center p-6">
+    <p>&copy; 2024 Siroccoi (U) Ltd | All Rights Reserved</p>
+    <div class="flex justify-center mt-2 space-x-4">
+        <a href="https://www.facebook.com/yourpage" target="_blank" class="text-white hover:text-yellow-300"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://twitter.com/yourpage" target="_blank" class="text-white hover:text-yellow-300"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/in/yourprofile" target="_blank" class="text-white hover:text-yellow-300"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://wa.me/yourwhatsappphonenumber" target="_blank" class="text-white hover:text-yellow-300"><i class="fab fa-whatsapp"></i></a>
+    </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+</body>
+</html>

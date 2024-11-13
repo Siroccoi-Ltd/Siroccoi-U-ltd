@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Siroccoi (U) Limited</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            line-height: 1.6;
+            overflow-x: hidden;
+            background: linear-gradient(180deg, #e3f2fd, #f3e5f5);
+            color: #333;
+        }
+
+        /* Header */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1.5rem;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #ffdd57; /* Adds a yellow hover effect to match core design colors */
+        }
+
+        h1, h2, h3 {
+            margin-top: 0;
+        }
+
+        /* Section Styles with Fade-in Effect */
+        section {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 1s ease-out, transform 1s ease-out;
+        }
+
+        .visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* About Section */
+        #about {
+            padding: 4rem 2rem;
+            text-align: center;
+            background: linear-gradient(135deg, #2196f3, #6a1b9a);
+            color: white;
+        }
+
+        #about h2 {
+            font-size: 2.5rem;
+            color: #ffdd57;
+            margin-bottom: 1rem;
+        }
+
+        #about p {
+            max-width: 800px;
+            margin: 0 auto 2rem;
+            font-size: 1.1rem;
+            line-height: 1.8;
+        }
+
+        /* Mission, Vision, Values Section */
+        #mission-vision {
+            background-color: #fff;
+            padding: 3rem 2rem;
+            text-align: center;
+        }
+
+        .content-box {
+            max-width: 800px;
+            margin: 0 auto 2rem;
+            background: #f3e5f5;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Core Values Section */
+        #core-values {
+            padding: 4rem 2rem;
+            background: linear-gradient(135deg, #6a1b9a, #2196f3);
+            text-align: center;
+            color: white;
+        }
+
+        #core-values h2 {
+            margin-bottom: 1rem;
+            color: #ffdd57;
+        }
+
+        .value {
+            display: flex;
+            align-items: center;
+            margin: 1rem 0;
+        }
+
+        .value i {
+            font-size: 2rem;
+            color: #ffdd57;
+            margin-right: 1rem;
+        }
+
+        .value p {
+            font-size: 1.1rem;
+            color: white;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            font-size: 0.9rem;
+        }
+
+        /* Social Media Icons */
+        .social-icons {
+            margin-top: 1rem;
+        }
+
+        .social-icon {
+            color: white;
+            font-size: 1.5rem;
+            margin: 0 10px;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .social-icon:hover {
+            color: #ffdd57;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>About Siroccoi (U) Limited</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="projects.html">Our Projects</a>
+            <a href="staff.html">Our Staff</a>
+            <a href="news.html">Latest News</a>
+            <a href="contact.html" class="mx-2 text-yellow-300">Contact Us</a>
+            <a href="services.html" class="mx-2 text-yellow-300">Services</a>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>Who We Are</h2>
+        <p>Siroccoi (U) Limited is a leading engineering company based in Jinja, Uganda, specializing in project management, consultancy, and supply chain solutions. Our expertise spans various sectors, including industrial and construction services for hydro, mechanical, and chemical plants. We are committed to exceeding client expectations through quality work, flexibility, and state-of-the-art equipment.</p>
+    </section>
+
+    <!-- Mission and Vision Section -->
+    <section id="mission-vision">
+        <div class="content-box">
+            <h3>Our Mission</h3>
+            <p>To conduct public and private construction works with quality, trust, and respect for the environment, while serving clients professionally.</p>
+        </div>
+        <div class="content-box">
+            <h3>Our Vision</h3>
+            <p>We aim to enhance our domestic reputation, achieve sustainable growth, boost customer confidence, improve productivity, and strengthen our safety, health, and environmental policies.</p>
+        </div>
+    </section>
+
+    <!-- Core Values Section -->
+    <section id="core-values">
+        <h2>Our Core Values</h2>
+        <div class="value">
+            <i class="fas fa-handshake"></i>
+            <p><strong>Integrity:</strong> We uphold honesty and transparency in all our engagements.</p>
+        </div>
+        <div class="value">
+            <i class="fas fa-user-shield"></i>
+            <p><strong>Professionalism:</strong> Our team is committed to delivering the highest standards of excellence.</p>
+        </div>
+        <div class="value">
+            <i class="fas fa-users"></i>
+            <p><strong>Teamwork:</strong> Collaboration is key, and we value every team member’s contribution.</p>
+        </div>
+        <div class="value">
+            <i class="fas fa-tools"></i>
+            <p><strong>Innovation:</strong> We embrace creativity to provide forward-thinking solutions.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Siroccoi (U) Limited | All Rights Reserved</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/yourpage" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com/yourpage" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/yourprofile" target="_blank" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://wa.me/+256 706 719459" target="_blank" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+        </div>
+    </footer>
+
+    <script>
+        // Scroll-triggered fade-in effect for sections
+        function revealOnScroll() {
+            const sections = document.querySelectorAll('section');
+            const windowHeight = window.innerHeight;
+
+            sections.forEach(section => {
+                const revealTop = section.getBoundingClientRect().top;
+
+                if (revealTop < windowHeight - 100) {
+                    section.classList.add('visible');
+                }
+            });
+        }
+
+        // Immediate reveal on load
+        document.addEventListener('DOMContentLoaded', revealOnScroll);
+        window.addEventListener('scroll', revealOnScroll);
+    </script>
+</body>
+</html>
